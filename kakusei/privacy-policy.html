@@ -116,12 +116,16 @@
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Photos and media</strong> — so you can choose a photo to turn into a wallpaper.
-        Kakusei only reads the specific image you pick.</li>
-    <li><strong>Network access</strong> — used to load ads and to download the depth model the
-        first time you need it.</li>
+    <li><strong>Photos</strong> — Kakusei never asks for access to your photo library. You choose an
+        image using Android's own photo picker, which hands the app that single picture and nothing
+        else. The app cannot see any other photo on your device.</li>
+    <li><strong>Internet and network state</strong> — used to load ads and to download the depth
+        model the first time you need it.</li>
     <li><strong>Advertising ID</strong> — used by Google AdMob to serve ads, as described above.</li>
   </ul>
+  <p>Kakusei also uses a few routine Android permissions to download that model in the background and
+     to keep the wallpaper rendering. None of them touch personal data, and the app requests no
+     location, contacts, camera or microphone access of any kind.</p>
 
   <h2>Children</h2>
   <p>Kakusei is not directed at children under 13, and the developer does not knowingly
