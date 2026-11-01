@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Exit — Delete your data</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #14161c;
+    --muted: #5a6170;
+    --rule: #e2e6ee;
+    --accent: #0089a3;
+    --card: #f4f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #080b12;
+      --fg: #f4f7fc;
+      --muted: #98a5b8;
+      --rule: #27364b;
+      --accent: #00e5ff;
+      --card: #101725;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.15rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; font-size: .95rem; }
+  a { color: var(--accent); }
+  ol, ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Neon Exit — Delete your data</h1>
+  <p class="sub">Neon Exit: Arrow Puzzle · developed by M Sohaib Nawaz</p>
+
+  <p>Neon Exit has no sign-up. If you used <strong>Play a Friend</strong>, the game created an
+     anonymous guest ID and stored match rooms on Google Firebase. You can delete them at any
+     time.</p>
+
+  <h2>Delete in the game</h2>
+  <ol>
+    <li>Open Neon Exit.</li>
+    <li>Go to <em>Settings → Online → Delete my online data</em>.</li>
+    <li>Tap <strong>Delete</strong>. Your guest ID and the match rooms you were in are deleted
+        straight away.</li>
+  </ol>
+
+  <h2>Delete without the game</h2>
+  <p>Email <a href="mailto:n7638519@gmail.com?subject=Delete%20my%20Neon%20Exit%20data">n7638519@gmail.com</a>
+     with the subject <em>"Delete my Neon Exit data"</em>. If you can, include the guest ID shown
+     in the game under <em>Settings → Online → Delete my online data</em>. Your data is deleted
+     within 30 days and you get a reply to confirm.</p>
+
+  <h2>What is deleted</h2>
+  <ul>
+    <li>The anonymous guest ID (Firebase Authentication).</li>
+    <li>Your match rooms: the generated player names, boards and match progress (Firebase
+        Realtime Database).</li>
+  </ul>
+  <p>Nothing is kept after deletion.</p>
+
+  <h2>What this does not affect</h2>
+  <ul>
+    <li><strong>Your progress, coins and settings</strong> are stored only on your phone;
+        uninstalling the game deletes them.</li>
+    <li><strong>Ads data held by Google AdMob</strong> is controlled by Google: reset or delete
+        your advertising ID in your phone's settings, and see
+        <a href="https://policies.google.com/technologies/partner-sites">how Google uses this
+        information</a>.</li>
+  </ul>
+
+  <hr>
+  <footer>
+    <p><a href="https://sohaibnaw5.github.io/neon-exit/privacy-policy.html">Privacy policy</a> ·
+       <a href="https://sohaibnaw5.github.io/neon-exit/">Neon Exit</a></p>
+  </footer>
+</main>
+</body>
+</html>
