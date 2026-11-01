@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Exit — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #14161c;
+    --muted: #5a6170;
+    --rule: #e2e6ee;
+    --accent: #0089a3;
+    --card: #f4f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #080b12;
+      --fg: #f4f7fc;
+      --muted: #98a5b8;
+      --rule: #27364b;
+      --accent: #00e5ff;
+      --card: #101725;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.15rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; font-size: .95rem; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Neon Exit — Privacy Policy</h1>
+  <p class="sub">Neon Exit: Arrow Puzzle · Last updated 2 November 2026</p>
+
+  <p>Neon Exit is an arrow puzzle game for Android. This policy explains what the game does
+     with your data. The short version: your progress stays on your phone, Google shows the
+     ads, and if you choose to play a friend live, a small match room is stored on Google
+     Firebase until the match is over.</p>
+
+  <h2>Your progress stays on your device</h2>
+  <p>Your levels, stars, coins, shop items, daily streak, settings and any ad-free gift code
+     are stored on your phone only. They are never sent to the developer. Uninstalling the game
+     deletes them. If your phone's own Android backup is switched on, Android may copy them to
+     your Google account; that copy is handled by Google under its terms.</p>
+  <div class="card">
+    <p><strong>No sign-up, no analytics, no in-app purchases.</strong> Neon Exit never asks for
+       your name, email address or phone number.</p>
+  </div>
+
+  <h2>Advertising</h2>
+  <p>Neon Exit is free and is paid for by ads: videos you choose to watch for a reward (more
+     time, an extra heart, double coins, a hint or free coins), and now and then a
+     full-screen ad between levels. Ads never appear in the middle of a level.</p>
+  <p>Ads are served by <strong>Google AdMob</strong>. To show them, the Google Mobile Ads SDK
+     collects and processes information such as your device's advertising ID, IP address
+     (from which an approximate location can be worked out), device type and operating
+     system version, and how you interact with ads. This data is handled by Google; the
+     developer only sees anonymous, aggregated earnings figures.</p>
+  <p>See <a href="https://policies.google.com/technologies/partner-sites">how Google uses
+     information from apps that use its services</a> and
+     <a href="https://policies.google.com/privacy">Google's privacy policy</a>. You can reset or
+     delete your advertising ID at any time in your phone's settings (Settings → Google → Ads,
+     or Settings → Privacy → Ads).</p>
+
+  <h2>Your consent choices</h2>
+  <p>If you are in the European Economic Area, the United Kingdom, Switzerland, or a place
+     whose law requires it, Neon Exit asks for your choices about personalised ads before any
+     ad loads, using Google's consent tool. You can change them at any time in
+     <em>Settings → Ads → Ad privacy choices</em>.</p>
+
+  <h2>Play a Friend (live duels)</h2>
+  <p>Play a Friend lets you invite a friend with a room code and play a live match. It is used
+     only if you choose to use it. To run the match, the game uses <strong>Google
+     Firebase</strong>:</p>
+  <ul>
+    <li><strong>Firebase Authentication</strong> creates an anonymous guest ID for your phone.
+        It is not linked to your name, email address or Google account.</li>
+    <li><strong>Firebase Realtime Database</strong> (Google servers in Singapore) stores the match
+        room: its code, both players' generated names (such as "Swift Comet 27"; names are never
+        typed), the three boards, each player's progress during the match (arrows left, hearts,
+        and when a board was cleared or lost), and whether each player is connected.</li>
+  </ul>
+  <p>Only the two players in a room can read it. The data is used only to run the match; it is
+     not used for advertising and is never sold. Firebase also processes your IP address to
+     connect you. A room is deleted when both players have left the match; rooms left behind
+     (for example when a phone was switched off mid-match) are deleted a day or two after they
+     were made.</p>
+  <p>There is no chat, and nothing you type is shown to the other player. Invites are shared
+     through Android's share sheet; the game never reads your contacts.</p>
+
+  <h2>Deleting your data</h2>
+  <ul>
+    <li><strong>In the game:</strong> <em>Settings → Online → Delete my online data</em> deletes
+        your guest ID and any match rooms you were in, straight away.</li>
+    <li><strong>Without the game:</strong> see
+        <a href="https://sohaibnaw5.github.io/neon-exit/delete-data.html">Delete your data</a>.</li>
+    <li><strong>Data on your phone:</strong> uninstall the game.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Internet and network state</strong>: to load ads and to play Play a Friend.</li>
+    <li><strong>Advertising ID</strong>: used by Google AdMob to serve ads, as described above.</li>
+  </ul>
+  <p>Neon Exit requests no location, contacts, camera, microphone, photos or storage access.</p>
+
+  <h2>Children</h2>
+  <p>Neon Exit is not directed at children under 13, and the developer does not knowingly
+     collect any information from children.</p>
+
+  <h2>Security</h2>
+  <p>Everything sent to Google's services is encrypted in transit (HTTPS/TLS).</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new
+     "last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or about Neon Exit? Email
+     <a href="mailto:n7638519@gmail.com">n7638519@gmail.com</a>.</p>
+
+  <hr>
+  <footer>
+    <p>Neon Exit is developed by M Sohaib Nawaz.</p>
+  </footer>
+</main>
+</body>
+</html>
