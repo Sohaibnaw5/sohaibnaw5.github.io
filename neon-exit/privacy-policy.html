@@ -100,17 +100,29 @@
     <li><strong>Firebase Authentication</strong> creates an anonymous guest ID for your phone.
         It is not linked to your name, email address or Google account.</li>
     <li><strong>Firebase Realtime Database</strong> (Google servers in Singapore) stores the match
-        room: its code, both players' generated names (such as "Swift Comet 27"; names are never
-        typed), the three boards, each player's progress during the match (arrows left, hearts,
-        and when a board was cleared or lost), and whether each player is connected.</li>
+        room: its code, both players' names, the three boards, each player's progress during
+        the match (arrows left, hearts, and when a board was cleared or lost), and whether each
+        player is connected.</li>
   </ul>
   <p>Only the two players in a room can read it. The data is used only to run the match; it is
      not used for advertising and is never sold. Firebase also processes your IP address to
      connect you. A room is deleted when both players have left the match; rooms left behind
      (for example when a phone was switched off mid-match) are deleted a day or two after they
      were made.</p>
-  <p>There is no chat, and nothing you type is shown to the other player. Invites are shared
-     through Android's share sheet; the game never reads your contacts.</p>
+
+  <h2>Player names and reports</h2>
+  <p>You can type a name for Play a Friend or use a generated one (such as "Swift Comet 27").
+     It is shown only to the friend you play. Names must be friendly: no swearing, hate,
+     personal details or links. The game checks every name before it is used, and there is no
+     chat: your name is the only thing you type that another player sees.</p>
+  <p>You can hide another player's name, which is kept on your phone, or report it. A report
+     (your guest ID, the reported player's guest ID and name, and the room code) is stored on
+     Google Firebase so the developer can review it, and it is deleted once reviewed. Invites
+     are shared through Android's share sheet; the game never reads your contacts.</p>
+
+  <h2>Match history</h2>
+  <p>Your duel results are stored on your phone only: the date, the other player's name, the
+     score and the coins won or lost. Uninstalling the game deletes them.</p>
 
   <h2>Deleting your data</h2>
   <ul>
